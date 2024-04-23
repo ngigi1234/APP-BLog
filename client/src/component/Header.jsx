@@ -37,7 +37,7 @@ const Header = () => {
 
           <div className="flex flex-wrap flex-row justify-center items-center gap-2 text-xs md:text-sm">
               <>
-                <button
+                {/* <button
                   className="font-meri border-2 border-black py-2 px-5 rounded-md hover:bg-gray-100"
                   onClick={() => {
                     navi("/login");
@@ -52,7 +52,7 @@ const Header = () => {
                   }}
                 >
                   Sign Up
-                </button>
+                </button> */}
               </>
           </div>
         </nav>
